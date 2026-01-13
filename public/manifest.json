@@ -1,0 +1,44 @@
+{
+  "short_name": "TITIAN",
+  "name": "TITIAN Equipment Monitoring System",
+  "description": "Monitor equipment and ATK for Oil & Gas Technology Services",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "logo192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "logo512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#1e3c72",
+  "background_color": "#ffffff",
+  "orientation": "portrait",
+  "categories": ["business", "productivity", "utilities"],
+  "shortcuts": [
+    {
+      "name": "Request Equipment",
+      "short_name": "Request",
+      "description": "Request equipment loan",
+      "url": "/loan",
+      "icons": [{ "src": "icon-request.png", "sizes": "96x96" }]
+    },
+    {
+      "name": "View Dashboard",
+      "short_name": "Dashboard",
+      "description": "View equipment status",
+      "url": "/",
+      "icons": [{ "src": "icon-dashboard.png", "sizes": "96x96" }]
+    }
+  ]
+}

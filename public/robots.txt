@@ -1,0 +1,7 @@
+# frontend/public/robots.txt
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /admin/
+
+Sitemap: https://titian-monitoring.com/sitemap.xml
