@@ -148,7 +148,7 @@ const Dashboard = () => {
                   </td>
                   <td className="px-6 py-4 whitespace-nowrap">
                     <span className={`px-2 py-1 text-xs rounded-full ${
-                      tool.current_location === 'site' 
+                      tool.current_location === 'Site' 
                         ? 'bg-green-100 text-green-800' 
                         : 'bg-blue-100 text-blue-800'
                     }`}>
@@ -157,9 +157,9 @@ const Dashboard = () => {
                   </td>
                   <td className="px-6 py-4 whitespace-nowrap">
                     <span className={`px-2 py-1 text-xs rounded-full ${
-                      tool.status === 'available' 
+                      tool.status === 'Available' 
                         ? 'bg-green-100 text-green-800' 
-                        : tool.status === 'borrowed'
+                        : tool.status === 'Borrowed'
                         ? 'bg-yellow-100 text-yellow-800'
                         : 'bg-gray-100 text-gray-800'
                     }`}>

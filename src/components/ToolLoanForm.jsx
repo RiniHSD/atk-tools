@@ -27,7 +27,7 @@ const ToolLoanForm = () => {
         setTools(response.data);
         
         const available = response.data.filter(tool => 
-          tool.status === 'available' || tool.status === 'workshop'
+          tool.status === 'Available' || tool.status === 'Workshop'
         );
         setAvailableTools(available);
       } catch (error) {
